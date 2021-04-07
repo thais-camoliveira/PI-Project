@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #252525;
+    color: white;
+    /*height: 100px;*/
+    overflow: auto; /* ajustar a altura do header para o tamanho do
+    conteudo que está ali dentro */
+    border-bottom: 3px solid orangered; /* border vamos falar de 3 atributos
+    tamanho/espessura, estilo da borda, cor da borda */
+    padding-top: 30px; /*Espaçar na parte de cima*/
+    padding-bottom: 10px;
+    /* padding: 30px 0 30px 0;  (pense no sentido horário igual um reglógio
+    topo, direita, baixo, esquerda)*/
+}
+
+.navbar {
+    float: right; 
+    list-style: none;
+
+}
+
+.titulo_principal {
+    margin: 0;
+    float: left;
+    padding-top: 5px; /* "Alinhar o tamanho" */
+}
+
+/*.navbar li {
+    float: left;
+}*/
+
+body .header .navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase; /* text-transform serve para 
+    modificar a "forma" do texto/fonte. Uppercase é tudo em CAPSLOCK*/
+}
+
+.destaque {
+    color: orangered;
+}
+
+/* BANNER apartir daqui */
+
+.banner {
+    text-align: center;
+    background-color: palevioletred; /*fundo para quando a imagem n carregar você conseguir visualizar o texto*/
+    background-image: url(img/banner-fundo-big.jpeg);
+    background-repeat: no-repeat; /*para a imagem não repetir*/
+    background-size: cover; /*Cobrir o espaço com a imagem toda*/
+    height: 400px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 45px; /*Tamanho da fonte*/
+    padding-top: 150px;
+}
+
+.banner h3 {
+    color: #555555;
+}
+
+/*SABER MAIS*/
+
+.saiba-mais button {
+    border: 0;
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.saiba-mais {
+    text-align: center; /*Alinhar botão*/
+    background-color: #252525;
+    height: 80px;
+}
+
+/* Missão, Visão e Valores*/
+
+.box img {
+    height: 100px;
+}
+
+.box {
+    overflow: auto;
+}
+
+.box-item {
+    /*border: 2px solid purple;*/
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 1%;
+}
+
+/*FOOTER*/
+
+.footer {
+    text-align: center;
+    background-color: orangered;
+    height: 90px;
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 35px;
+    font-weight: 200;
+    color: white;
+}

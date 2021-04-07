@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #252525;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid orangered;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo_principal {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: orangered;
+}
+
+.banner {
+    text-align: center;
+    background-color: grey;
+    background-image: url(op2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+    border-bottom: 3px solid orangered;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 35px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: honeydew;
+}
+
+.box {
+    margin: 70px 20px 40px 20px;
+    background-color: aliceblue;
+    padding: 40px 50px 30px 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 6px solid #252525;
+    opacity: 70%;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-weight: 525;
+}
+
+.box img {
+    height: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bt_equipe {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.box button {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    background-color: orangered;
+    height: 50px;
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+.footer h4 a {
+    color: #252525;
+}
