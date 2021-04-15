@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #252525;
+    color: white;
+    /*height: 100px;*/
+    overflow: auto; /* ajustar a altura do header para o tamanho do
+    conteudo que está ali dentro */
+    border-bottom: 3px solid orangered; /* border vamos falar de 3 atributos
+    tamanho/espessura, estilo da borda, cor da borda */
+    padding-top: 30px; /*Espaçar na parte de cima*/
+    padding-bottom: 10px;
+    /* padding: 30px 0 30px 0;  (pense no sentido horário igual um reglógio
+    topo, direita, baixo, esquerda)*/
+}
+
+.navbar {
+    float: right; 
+    list-style: none;
+
+}
+
+.titulo_principal {
+    margin: 0;
+    float: left;
+    padding-top: 5px; /* "Alinhar o tamanho" */
+}
